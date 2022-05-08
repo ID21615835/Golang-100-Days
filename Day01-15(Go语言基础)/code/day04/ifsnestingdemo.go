@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 func main() {
 	/*
 	if语句的嵌套：
@@ -27,8 +30,27 @@ func main() {
 	}
 
 	 */
+	
+	t1 := time.Now()
 
-	sex := "泰国" //bool, int, string
+	for i :=0; i <= 19900; i++ {
+
+		wc();
+	}  
+	
+	t2 := time.Now()
+
+	fmt.Println("t1与t2 时间差:",t2.Sub(t1))
+	fmt.Println("main...over....")
+}
+
+func wc() {
+
+	listsex := [...] string{"男","女","其他"}
+	// sex := "泰国" //bool, int, string
+	hex := rand.Intn(3)
+	fmt.Printf("hex 为：%d \n" , hex)
+	sex := listsex[hex]
 
 	if sex == "男" {
 		fmt.Println("可以去男厕所啦。。。") // sex 是男
@@ -40,5 +62,4 @@ func main() {
 
 	}
 
-	fmt.Println("main...over....")
 }

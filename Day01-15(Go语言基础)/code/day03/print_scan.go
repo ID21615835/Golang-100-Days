@@ -77,6 +77,10 @@ func main() {
 	fmt.Println("请输入一个字符串：")
 	reader := bufio.NewReader(os.Stdin)
 	s1, _ := reader.ReadString('\n')
+	fmt.Println("请输入另外一个字符串：")
+	reader2 := bufio.NewReader(os.Stdin)
+	s2, _ := reader2.ReadString('\n')
 	fmt.Println("读到的数据：", s1)
+	fmt.Println("读到的数据S2：", s2 )	
 
 }

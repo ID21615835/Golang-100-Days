@@ -10,11 +10,11 @@ DBMS：
 
 数据库，数据表，表的结构。。
 
-DB：是指datebase（数据库）
+DB：是指database（数据库）
 	数据库是存储数据的一个集合，数据库中通常使用数据表等组成，而数据表是由数据的字段和数据的值等信息组成。
-DBMS:是指datebase mangement systerm（数据库管理系统）
+DBMS:是指database management systerm（数据库管理系统）
 	它是操作数据库和管理数据库的一个系统，比如mysql、sqlserver等都是属于数据库管理软件，人们通过这些系统或者工具来管理数据库内的数据。
-DBS:是指datebase systerm (数据库系统）
+DBS:是指database systerm (数据库系统）
 	数据库系统又数据库和数据库管理软件等组成，数据库是一个逻辑上的存储数据的概念，而对应的是实体是数据库管理软件存储存储在硬盘上的数据库，所以数据库系统包含数据库和数据库管理软件。
 
 ###  1.2 Mysql的安装和卸载

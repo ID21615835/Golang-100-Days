@@ -33,7 +33,7 @@ func main() {
 	fmt.Println("-->",i)
 
 	fmt.Println("------------")
-	for{
+	for i <= 10 {
 		fmt.Println("i--->",i)
 		i++
 	}

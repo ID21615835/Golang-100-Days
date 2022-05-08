@@ -35,10 +35,7 @@ func main() {
 	 s3 := []int{7,8,9}
 	 fmt.Println(s2)
 	 fmt.Println(s3)
-
-	 //copy(s2,s3) //将s3中的元素，拷贝到s2中
-	 //copy(s3,s2) //将s2中的元素，拷贝到s3中
-	 copy(s3[1:],s2[2:])
+	 copy(s2,s3) //将s3中的元素，拷贝到s2中
 	 fmt.Println(s2)
 	 fmt.Println(s3)
 

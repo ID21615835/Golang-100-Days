@@ -24,20 +24,28 @@ func main() {
 	 */
 
 	 //1.先创建并启动子goroutine，执行printNum()
-	 go printNum()
+	//  go printNum()
 
 	 //2.main中打印字母
-	 for i:=1;i<=100;i++{
+	 fmt.Printf("开始执行main中的打印字母：")
+	 for i:=1;i<=10;i++{
 	 	fmt.Printf("\t主goroutine中打印字母：A %d\n",i)
+		go printNum()
+		time.Sleep(1*time.Second)
+
 	 }
 
+	 for i :='a'; i<='z'; i++{
+		 fmt.Printf("\t开始到%c: \n",i)
+	 }
+	//  fmt.Printf("完成main中的打印字母：")
 	 time.Sleep(1*time.Second)
 	 fmt.Println("main...over...")
 
 }
 
 func printNum() {
-	for i := 1; i <= 100; i++ {
+	for i := 1; i <= 1000; i++ {
 		fmt.Printf("子goroutine中打印数字：%d\n", i)
 	}
 }

@@ -17,6 +17,7 @@ func main() {
 	const (
 		J = iota // 0
 	)
+	fmt.Printf("Hello world \n")
 	fmt.Println(A)
 	fmt.Println(B)
 	fmt.Println(C)

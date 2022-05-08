@@ -42,7 +42,7 @@ func main() {
 	fmt.Println(arr1)
 	fmt.Println(arr5)
 
-	arr5[0] =1
+	arr5[1] =1
 	fmt.Println(arr1)
 	fmt.Println(arr5)
 
@@ -50,6 +50,6 @@ func main() {
 	b := 4
 	fmt.Println(a==b) //比较a和b的数值是否相等
 	fmt.Println(arr5 == arr1) //比较数组的对应下标位置的数值是否相等
-	//fmt.Println(arr1 == arr2) //invalid operation: arr1 == arr2 (mismatched types [4]int and [3]float64)
+	// fmt.Println(arr1 == arr2) //invalid operation: arr1 == arr2 (mismatched types [4]int and [3]float64)
 
 }

@@ -45,6 +45,7 @@ func main() {
 
 	//睡一会儿
 	time.Sleep(3*time.Second)
+	fmt.Println(" 刚完成 3*time.Second ")
 
 
 
@@ -52,7 +53,7 @@ func main() {
 
 func fun(){
 	defer fmt.Println("derfer...")
-	//return //终止函数
-	runtime.Goexit() //终止当前的goroutine
+	return //终止函数
+	// runtime.Goexit() //终止当前的goroutine
 	fmt.Println("fun函数。。。")
 }

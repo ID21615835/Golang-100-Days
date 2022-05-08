@@ -16,7 +16,8 @@ func main() {
 			Mode()，权限
 
 	 */
-	fileInfo,err :=  os.Stat("/Users/ruby/Documents/pro/a/aa.txt")
+	// fileInfo,err :=  os.Stat("/Users/ruby/Documents/pro/a/aa.txt")B:\share\program-selfstudy\go\Golang-100-Days\Day16-20(Go语言基础进阶)\code\day16
+	fileInfo,err := os.Stat("B:/share/program-selfstudy/go/Golang-100-Days/Day16-20(Go语言基础进阶)/code/day16/ab.txt")
 	if err != nil{
 		fmt.Println("err :",err)
 		return

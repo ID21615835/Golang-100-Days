@@ -37,13 +37,16 @@ Beego框架的主要特性：
 ![Go语言版本](./img/WX20190515-154819@2x.png)
 
 上图显示，本地环境go语言版本就是1.10.4版本。
+Go  语言 [modules packages 管理发展](https://www.modb.pro/db/211633)  
+go 语言2018年8月 1.11 版本以后 官方试用 modules 来进行packages 管理，2019年2月 1.12 版本默认 modules 为auto； 
+2019年9月 1.13 版本默认 开启 Go Mod 管理模式.
 
 #### 1.2.2 beego安装命令
 现在，我们来执行安装命令：
 ```go
 go get github.com/astaxie/beego
 ```
-等待go将源代码下载安装完毕，我们就可以在我们自己设置的GOPATH下面的src目录下找到beego框架源码。
+等待go将源代码下载安装完毕，我们就可以在我们自己设置的GOPATH下面的src目录下找到beego框架源码。（）
 
 #### 1.2.3 编写第一个beego程序
 

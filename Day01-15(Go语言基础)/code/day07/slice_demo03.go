@@ -27,6 +27,8 @@ func main() {
 
 	fmt.Printf("%p\n",&a)
 	fmt.Printf("%p\n",s1)
+	fmt.Printf("%p\n",&s1)
+	fmt.Printf("%p\n",a)
 
 	fmt.Println("----------2.长度和容量--------------------")
 	fmt.Printf("s1	len:%d,cap:%d\n",len(s1),cap(s1)) //s1	len:5,cap:10
@@ -64,6 +66,7 @@ func main() {
 	fmt.Println(s2)
 	fmt.Println(s3)
 	fmt.Println(len(s1),cap(s1))
+	fmt.Println(len(a),cap(a))
 	fmt.Printf("%p\n",s1)
 	fmt.Printf("%p\n",&a)
 }

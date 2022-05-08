@@ -37,10 +37,11 @@ func main() {
 
 	 //将map存入到slice中
 	 s1 := make([]map[string]string ,0,3)
+	 fmt.Println(s1)
 	 s1 = append(s1,map1)
 	 s1 = append(s1,map2)
 	 s1= append(s1,map3)
-
+	 fmt.Println(s1)
 	 //遍历切片
 	 for i,val :=range s1 {
 	 	//val ：map1，map2，map3
